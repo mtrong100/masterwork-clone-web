@@ -445,6 +445,7 @@ a {
     border-bottom-left-radius : 6px;
     border-bottom-right-radius: 6px;
     box-shadow                : 5px 5px 10px 8px rgba(0, 0, 0, 0.1 );
+    cursor: pointer;
 }
 .question-heading {
     position               : relative;
@@ -497,6 +498,7 @@ a {
     padding    : 15px;
     text-align : center;
     color      : var(--title-color);
+    cursor: pointer;
 }
 .active {
     border-bottom: 5px solid var(--main-color);
@@ -921,12 +923,14 @@ a {
         font-size: 16px;
     }
     .about-us-item {
+        margin: 35px 0;
         display: block;
     }
     .about-company-desc  {
         max-width: none;
     }
     .about-company-item {
+        margin: 35px 0px;
         display   : block;
         text-align: center;
     }
